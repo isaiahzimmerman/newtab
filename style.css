@@ -29,3 +29,28 @@ body, html{
     color: white;
     /* text-decoration: none; */
 }
+
+#search_bar{
+    font-size: max(3vmin, .9rem);
+    font-family: inherit;
+    background-color: #2B2A33;
+    color: inherit;
+    border: none;
+    padding: max(1vmin, 0.3rem);
+    width: max(30vmin, 9rem);
+}
+
+#search_bar:focus{
+    outline: 1px solid white;
+}
+
+#search_button{
+    height: max(4vmin, 1.2rem);
+    margin: max(1vmin, 0.3rem);
+    cursor: pointer;
+}
+
+#search_container{
+    display: flex;
+    align-items: center;
+}
